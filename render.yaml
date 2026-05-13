@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: university-training-platform
+    env: node
+    plan: free
+    buildCommand: npm install --legacy-peer-deps
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20

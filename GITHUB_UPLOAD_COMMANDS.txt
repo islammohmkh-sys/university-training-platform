@@ -1,0 +1,23 @@
+أوامر رفع الإصدار من VS Code:
+
+git init
+git add .
+git commit -m "Course Library Udemy v9"
+git branch -M main
+git remote remove origin
+git remote add origin https://github.com/islammohmkh-sys/university-training-platform.git
+git push -u origin main --force
+
+لو ظهر No such remote origin:
+git remote add origin https://github.com/islammohmkh-sys/university-training-platform.git
+git push -u origin main --force
+
+إعدادات Render:
+Build Command:
+npm install --legacy-peer-deps
+
+Start Command:
+npm start
+
+ثم:
+Manual Deploy → Clear build cache & deploy
